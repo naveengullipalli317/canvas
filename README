@@ -1,0 +1,5 @@
+To run the code:
+First you have to Install live server, To do that you need to run the command: "npm install live-server"
+Then run the command live-server
+It will run the code , you can find the canvas whiteboard in the browser
+You can draw any painting with your cursor in the browser.
