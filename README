@@ -3,3 +3,15 @@ First you have to Install live server, To do that you need to run the command: "
 Then run the command live-server
 It will run the code , you can find the canvas whiteboard in the browser
 You can draw any painting with your cursor in the browser.
+
+
+
+to run the code: with http-server
+Step 1: Open a terminal or command prompt 
+
+In the terminal type: "npm install -g http-server"
+
+
+From then on just cd to the folder that has the files you want to serve and type "http-server"
+
+Then point your browser at http://localhost:8080/
