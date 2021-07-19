@@ -3,3 +3,7 @@ First you have to Install live server, To do that you need to run the command: "
 Then run the command live-server
 It will run the code , you can find the canvas whiteboard in the browser
 You can draw any painting with your cursor in the browser.
+
+
+// Developers Note:
+1. In case you dont see the changes  that you made on the chrome browser even after reloading, try clearing cache and reload the page. the short cut  to clear cache in mac is cmd+shift+r

@@ -1,9 +1,13 @@
 window.addEventListener('load', () => {
     const canvas = document.querySelector("#canvas");
     const context = canvas.getContext("2d");
+
+    
     // re sizing
-   canvas.height = window.innerHeight;
+    canvas.height = window.innerHeight;
     canvas.width = window.innerWidth;
+
+
 
      /*  context.beginPath();
     context.moveTo(100, 100);
@@ -30,7 +34,7 @@ window.addEventListener('load', () => {
         context.lineCap = "round"
         context.lineTo(e.clientX, e.clientY);
         context.stroke();
-        context.strokeStyle ="blue";
+        context.strokeStyle ="green";
         context.beginPath();
         context.moveTo(e.clientX, e.clientY);
     }
