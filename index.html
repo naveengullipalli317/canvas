@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html lang = "en">
+
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale= 1.0" />
+        <meta name="viewport" content="width=device-width, user-scalable=no">    
         <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+         <!--
         <title><canvas></canvas></title>
+      -->
         <link rel="stylesheet" href="style.css" />
+          
+        <script src="https://cdn.jsdelivr.net/npm/ef-infinite-canvas/dist/infinite-canvas.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/ef-infinite-canvas@0.5.0-alpha/dist/infinite-canvas.js"></script>
+      
+
     </head>
+
     <body>
+      
+        <a href="#head"><img src="resources/buttons/plusButton.png" id="fixedZoomInbutton" ></a>
+        <a href="#head"><img src="resources/buttons/plusButton.png" id="fixedZoomOutbutton" ></a>
+        <a href="#head"><img src="resources/buttons/plusButton.png" id="fixedRecenterbutton" ></a>
+    
+
         <canvas id="canvas"></canvas>
         <script src="canvas.js"></script>
+      
     </body>
+
 </html>

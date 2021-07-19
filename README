@@ -6,4 +6,9 @@ You can draw any painting with your cursor in the browser.
 
 
 // Developers Note:
-1. In case you dont see the changes  that you made on the chrome browser even after reloading, try clearing cache and reload the page. the short cut  to clear cache in mac is cmd+shift+r
+1. In case you dont see the changes  that you made on the chrome browser even after reloading, try clearing cache and reload the page. the short cut  to clear cache in mac is cmd+shift+r, and in windows ctrl+f5
+
+// Resources
+1. main resource for the infinite canvas package in npm : https://www.infinite-canvas.org/
+   npm install ef-infinite-canvas
+

@@ -1,20 +1,10 @@
+/*
 window.addEventListener('load', () => {
     const canvas = document.querySelector("#canvas");
     const context = canvas.getContext("2d");
-
-    
     // re sizing
-    canvas.height = window.innerHeight;
+   canvas.height = window.innerHeight;
     canvas.width = window.innerWidth;
-
-
-
-     /*  context.beginPath();
-    context.moveTo(100, 100);
-    context.lineTo(300, 100);
-    context.lineTo(300, 200);
-    context.closePath();
-    context.stroke(); */
 
     // variables
     let painting = false;
@@ -34,7 +24,7 @@ window.addEventListener('load', () => {
         context.lineCap = "round"
         context.lineTo(e.clientX, e.clientY);
         context.stroke();
-        context.strokeStyle ="green";
+        context.strokeStyle ="blue";
         context.beginPath();
         context.moveTo(e.clientX, e.clientY);
     }
@@ -45,3 +35,42 @@ window.addEventListener('load', () => {
     canvas.addEventListener("mouseup", finishedPosition);
     canvas.addEventListener("mousemove", draw);
 });
+
+*/
+
+
+// code for inifinite canvas from npm
+
+window.addEventListener('load', () => {
+// var canvasElement = document.getElementById("canvas");
+const canvasElement = document.querySelector("#canvas");
+
+var rect = canvasElement.getBoundingClientRect();
+// canvasElement.width = rect.width;
+// canvasElement.height = rect.height;
+canvasElement.width = window.innerWidth;
+canvasElement.height = window.innerHeight;
+
+var canvas = new InfiniteCanvas(canvasElement);
+var context = canvas.getContext("2d");
+
+
+// Set line width
+context.lineWidth = 10;
+
+// Wall
+context.strokeRect(75, 140, 150, 110);
+
+// Door
+context.fillRect(130, 190, 40, 60);
+
+// Roof
+context.beginPath();
+context.moveTo(50, 140);
+context.lineTo(150, 60);
+context.lineTo(250, 140);
+context.closePath();
+context.stroke();
+ 
+});
+
