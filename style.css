@@ -1,5 +1,39 @@
+
 * {
-    margin: 0;
-    padding :0;
+    margin: 0px;
+    padding :0px;
     box-sizing: border-box;
+    overflow:hidden;
 }
+
+
+#fixedZoomInbutton {
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+    zoom: 0;
+
+}
+#fixedZoomOutbutton {
+    position: fixed;
+    bottom: 0px;
+    right: 200px; 
+  
+
+}
+#fixedRecenterbutton {
+    position: fixed;
+    bottom: 0px;
+    right: 400px; 
+   
+}
+
+/*
+*/
+
+/*
+canvas {
+    width: 400%;
+    height: 1000px;
+}
+*/
