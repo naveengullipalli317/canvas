@@ -13,5 +13,13 @@ You can draw any painting with your cursor in the browser.
    npm install ef-infinite-canvas
 
 2. Code pen code for pinch zoom and pan actions with buttons: https://codepen.io/AbramPlus/pen/mdymKom
+
+   2.1 in this code we have a jQuery () function , ex: $(document).ready(function())
+      we will encounter with this error: $ is not defined
+      Solution: jquery-plugins.js is developed by using a jquery-3.4.1.min.js script. But, we are trying to load the plugins jquery-plugins.js script first then next loading the core jquery-3.4.1.min.js scripts.
+      To avoid the error, we should load the scripts in proper order as below.
+      
+      <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"> </script>
    
 

@@ -7,7 +7,7 @@
 }
 
 
-#fixedZoomInbutton {
+/* #fixedZoomInbutton {
     position: fixed;
     bottom: 0px;
     right: 0px; 
@@ -45,6 +45,49 @@
     min-height: 50px;
    
 }
+ */
+.button-group {
+    right: 20px;
+    position: fixed;
+    bottom: 20px
+  }
+  
+  button,
+  button:hover,
+  button:active,
+  button:focus {
+    border: none;
+    cursor: pointer;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    outline: none;
+  }
+  
+  button {
+    background: #003c5b;
+    color: #FFF;
+    display: block;
+    font-size: 35px;
+    height: 55px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: center;
+    width: 55px;
+    transition: background .3s ease-in-out;
+  }
+  
+  button:hover,
+  button:focus {
+    background: #061730
+  }
+  
+  button:disabled {
+    color: #7d99d5;
+    cursor: default
+  }
 
 /*
 */

@@ -12,17 +12,27 @@
           
         <script src="https://cdn.jsdelivr.net/npm/ef-infinite-canvas/dist/infinite-canvas.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/ef-infinite-canvas@0.5.0-alpha/dist/infinite-canvas.js"></script>
+
+        <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"> </script> 
       
 
     </head>
 
     <body>
+
+        <div class="button-group">
+            <button type="button" class="scale" data-scale="up">+</button>
+            <button type="button" class="scale" data-scale="down" disabled>-</button>
+            </div>
+
         <canvas id="canvas"></canvas>
         <script src="canvas.js"></script>
-             
-        <a onclick="scaleCanvas()" href="#head"><img src="resources/buttons/plusButton.png" id="fixedZoomInbutton" ></a>
+        
+           <!-- //buttons with images  --> 
+        <!-- <a onclick="scaleCanvas()" href="#head"><img src="resources/buttons/plusButton.png" id="fixedZoomInbutton" ></a>
         <a href="#head"><img src="resources/buttons/plusButton.png" id="fixedZoomOutbutton" ></a>
-        <a href="#head"><img src="resources/buttons/plusButton.png" id="fixedRecenterbutton" ></a>
+        <a href="#head"><img src="resources/buttons/plusButton.png" id="fixedRecenterbutton" ></a> -->
       
     </body>
 
