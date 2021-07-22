@@ -1,4 +1,3 @@
-
 * {
     margin: 0px;
     padding :0px;
@@ -6,46 +5,6 @@
     overflow:hidden;
 }
 
-
-/* #fixedZoomInbutton {
-    position: fixed;
-    bottom: 0px;
-    right: 0px; 
-    zoom: 0;
-    max-width: 50px;
-    max-height: 50px;
-    min-width:50px;
-    min-height: 50px;
-    background-color: black;
-    border-style: none;
-    color: white;
-    font-family: 'Coiny', cursive;
-    cursor: pointer;
-    margin: 0 auto;
-    display: inline-block;
-
-}
-#fixedZoomOutbutton {
-    position: fixed;
-    bottom: 0px;
-    right: 50px; 
-    max-width: 50px;
-    max-height: 50px;
-    min-width:50px;
-    min-height: 50px;
-
-}
-#fixedRecenterbutton {
-    position: fixed;
-    bottom: 0px;
-    right:100px; 
-    max-width: 50px;
-    max-height: 50px;
-    min-width:50px;
-    min-height: 50px;
-   
-}
- */
 .button-group {
     right: 20px;
     position: fixed;
@@ -88,13 +47,3 @@
     color: #7d99d5;
     cursor: default
   }
-
-/*
-*/
-
-/*
-canvas {
-    width: 400%;
-    height: 1000px;
-}
-*/
